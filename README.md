@@ -94,3 +94,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ADD: Shop items in config - (Version 1.0)
 * ADD: Chest items in config - (Version 1.0)
 * ADD: Multiple lobbys per server - (Version 2.0)
+
+
+## Issues
+
+[linky](https://github.com/andersspielen/PotionGamesIssues/issues)Report bugs here!
