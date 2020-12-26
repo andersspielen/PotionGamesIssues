@@ -89,6 +89,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## TODO
 
+* ADD: ~~Teams,~~ Kits, Shops option to turn on or off - (Version 0.6)
 * ADD: Option to deactivate mysql (file database) - (Version 1.0)
 * ADD: Kits in config (remove, add, deactivate) - (Version 1.0)
 * ADD: Shop items in config - (Version 1.0)
