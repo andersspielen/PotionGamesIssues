@@ -31,7 +31,14 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * Target: Special chest with Flame-Bow and Arrows
 * Netherite Block: Special chest with Netherite Ingots
 * Composter: Shop with potions (Build a Beacon under the Composter to make it shown on the whole map)
-    
+
+#### Create Join and Stats Signs
+
+* Join Sign
+    * Place a Sign and type in the first line `PotionGames` and in the second line `Join`
+* Stats Sign
+    * Place a Sign and type in the first line `PotionGames` and in the second line `Stats`
+
 #### Create Stats-Wall
 
 1. Place 3 Player Heads on a block next to each other
@@ -39,7 +46,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 3. Now use the commands listed below to create a podium
     * Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
     * Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
-    
+
 ### Commands and Permissions
 
 * `/pg help` or `/pg commands` - Get list of commands + permissions - Permission: `none`
@@ -66,6 +73,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `minPlayers: 12` - Set the amount of minimal amount of players to start the game
 * `teamSize: 2` - Set amount of players in one team
 * `activateTeams: false` - Teams allowed `false` or `true`
+  `activateKits: false` - Kits allowed `false` or `true`
+  `activateShop: false` - Shop allowed `false` or `true`
 * `startOnJoin: false` - Automatically joining the lobby when joining the server `false` or `true` (Example: BungeeCord)
 * `language: en_US` - Change language to one of the defined ones in the `messages.yml` file
 
@@ -76,6 +85,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 0.6
+    * ADD: Option to turn Teams, Kits and Shop on or off
 * 0.5
     * ADD: Teams
 * 0.4
@@ -89,7 +100,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## TODO
 
-* ADD: Option to turn Shop, Kits or Teams &#10003; on or off - (Version 0.6)
+* ~~ADD: Option to turn Shop &#10003;, Kits &#10003; or Teams &#10003; on or off - (Version 0.6)~~
 * ADD: Option to deactivate mysql (file database) - (Version 1.0)
 * ADD: Kits in config (remove, add, deactivate) - (Version 1.0)
 * ADD: Shop items in config - (Version 1.0)
