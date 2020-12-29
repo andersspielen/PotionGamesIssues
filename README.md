@@ -73,8 +73,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `minPlayers: 12` - Set the amount of minimal amount of players to start the game
 * `teamSize: 2` - Set amount of players in one team
 * `activateTeams: false` - Teams allowed `false` or `true`
-  `activateKits: false` - Kits allowed `false` or `true`
-  `activateShop: false` - Shop allowed `false` or `true`
+* `activateKits: false` - Kits allowed `false` or `true`
+* `activateShop: false` - Shop allowed `false` or `true`
 * `startOnJoin: false` - Automatically joining the lobby when joining the server `false` or `true` (Example: BungeeCord)
 * `language: en_US` - Change language to one of the defined ones in the `messages.yml` file
 
