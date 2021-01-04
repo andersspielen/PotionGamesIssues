@@ -27,17 +27,17 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 #### Chest-Types
 
-* End Portal Frame: Normal chest like in SurivalGames
-* Target: Special chest with Flame-Bow and Arrows
-* Netherite Block: Special chest with Netherite Ingots
+* End Portal Frame: Normal chest like in SurvivalGames
+* Target: A special chest with Flame-Bow and Arrows
+* Netherite Block: A special chest with Netherite Ingots
 * Composter: Shop with potions (Build a Beacon under the Composter to make it shown on the whole map)
 
 #### Create Join and Stats Signs
 
 * Join Sign
-    * Place a Sign and type in the first line `PotionGames` and in the second line `Join`
+  * Place a Sign and type in the second line `PotionGames` and in the third line `Join`
 * Stats Sign
-    * Place a Sign and type in the first line `PotionGames` and in the second line `Stats`
+  * Place a Sign and type in the second line `PotionGames` and in the third line `Stats`
 
 #### Create Stats-Wall
 
@@ -51,12 +51,12 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 * `/pg help` or `/pg commands` - Get list of commands + permissions - Permission: `none`
 * `/pg setlobby` - Set waiting lobby - Permission: `pg.setup`
-* `/pg addarena [arenaname]` - Add arena - Permission: `pg.setup`
+* `/pg addarena [arenaname]` - Add an arena - Permission: `pg.setup`
 * `/pg addspawn [arenaname]` - Add spawn - Permission: `pg.setup`
 * `/pg delarena [arenaname]` - Remove arena - Permission: `pg.setup`
 * `/pg delspawn [arenaname]` - Remove last added spawn - Permission: `pg.setup`
 * `/pg build` - Activate build mode - Permission: `pg.build`
-* `/pg pause` - Pause timer/countdwon - Permission: `pg.pause`
+* `/pg pause` - Pause timer/countdown - Permission: `pg.pause`
 * `/pg force [arenaname]` - Force arena - Permission: `pg.force`
 * `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
 * `/pg join` - Join the game - When `startOnJoin = false` - Permission: `pg.join` 
@@ -77,35 +77,38 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `activateShop: false` - Shop allowed `false` or `true`
 * `startOnJoin: false` - Automatically joining the lobby when joining the server `false` or `true` (Example: BungeeCord)
 * `language: en_US` - Change language to one of the defined ones in the `messages.yml` file
+* `activeSlots: 19` - Change amount of used slots in the Potion-Shop (Maximum: `32`)
 
 ### Messages
 
-* To change a massege just change the text in the language you use.
+* To change a message just change the text in the language you use.
 * To add a language copy the existing lines and paste them below it and change the `en_US` to your language.
 
 ## Release History
 
+* 0.7
+  * ADD: Option to change shop items
 * 0.6
-    * ADD: Option to turn Teams, Kits and Shop on or off
+  * ADD: Option to turn Teams, Kits and Shop on or off
 * 0.5
-    * ADD: Teams
+  * ADD: Teams
 * 0.4
-    * ADD: Kits
+  * ADD: Kits
 * 0.3
-    * ADD: Shop
+  * ADD: Shop
 * 0.2
-    * ADD: ArenaVote-System
+  * ADD: ArenaVote-System
 * 0.1
-    * ADD: SurvivalGames-System with chests giving PotionEffects
+  * ADD: SurvivalGames-System with chests giving PotionEffects
 
 ## TODO
 
 * ~~ADD: Option to turn Shop &#10003;, Kits &#10003; or Teams &#10003; on or off - (Version 0.6)~~
+* ~~ADD: Shop items in a config - (Version 0.7)~~
+* ADD: Kits in a config (remove, add, deactivate) - (Version 0.8)
+* ADD: Chest items in a config - (Version 0.9)
 * ADD: Option to deactivate mysql (file database) - (Version 1.0)
-* ADD: Kits in config (remove, add, deactivate) - (Version 1.0)
-* ADD: Shop items in config - (Version 1.0)
-* ADD: Chest items in config - (Version 1.0)
-* ADD: Multiple lobbys per server - (Version 2.0)
+* ADD: Multiple lobby's per server - (Version 2.0)
 
 
 ## Issues
