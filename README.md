@@ -49,7 +49,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ### Commands and Permissions
 
-* `/pg help` or `/pg commands` - Get list of commands + permissions - Permission: `none`
+* `/pg` or `/pg help` or `/pg commands` - Get list of commands + permissions - Permission: `none`
 * `/pg setlobby` - Set waiting lobby - Permission: `pg.setup`
 * `/pg addarena [arenaname]` - Add an arena - Permission: `pg.setup`
 * `/pg addspawn [arenaname]` - Add spawn - Permission: `pg.setup`
@@ -77,7 +77,9 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `activateShop: false` - Shop allowed `false` or `true`
 * `startOnJoin: false` - Automatically joining the lobby when joining the server `false` or `true` (Example: BungeeCord)
 * `language: en_US` - Change language to one of the defined ones in the `messages.yml` file
-* `activeSlots: 19` - Change amount of used slots in the Potion-Shop (Maximum: `27`)
+* `activePotions: 19` - Change amount of used slots in the Potion-Shop (Maximum: `27`)
+* `activeKits: 6` - Change amount of used slots in the Potion-Shop (Maximum: `26`)
+  * `Rich Kid` is hard coded and can only be deactivated
 
 ### Messages
 
@@ -86,6 +88,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 0.8
+  * ADD: Option to change kits
 * 0.7
   * ADD: Option to change shop items
 * 0.6
@@ -105,7 +109,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 * ~~ADD: Option to turn Shop &#10003;, Kits &#10003; or Teams &#10003; on or off - (Version 0.6)~~
 * ~~ADD: Shop items in a config - (Version 0.7)~~
-* ADD: Kits in a config (remove, add, deactivate) - (Version 0.8)
+* ~~ADD: Kits in a config (remove, add, deactivate) - (Version 0.8)~~
 * ADD: Chest items in a config - (Version 0.9)
 * ADD: Option to deactivate mysql (file database) - (Version 1.0)
 * ADD: Multiple lobby's per server - (Version 2.0)
