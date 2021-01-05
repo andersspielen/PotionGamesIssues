@@ -78,7 +78,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `startOnJoin: false` - Automatically joining the lobby when joining the server `false` or `true` (Example: BungeeCord)
 * `language: en_US` - Change language to one of the defined ones in the `messages.yml` file
 * `activePotions: 19` - Change amount of used slots in the Potion-Shop (Maximum: `27`)
-* `activeKits: 6` - Change amount of used slots in the Potion-Shop (Maximum: `26`)
+* `activeKits: 6` - Change amount of used slots in the Kit-Chooser (Maximum: `26`)
   * `Rich Kid` is hard coded and can only be deactivated
 
 ### Messages
