@@ -67,6 +67,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ### Config
 
+* `activateMySQL: false` - Activate mysql database to use stats `false` or `true`
 * `mysql:` - Setup your mysql database
 * `countdown: 60` - Set the lobby countdown
 * `maxPlayers: 24` - Set the amount of maximum amount of players
@@ -88,6 +89,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 0.8.5
+  * ADD: Option to deactivate mysql/stats
 * 0.8
   * ADD: Option to change kits
 * 0.7
@@ -110,8 +113,9 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: Option to turn Shop &#10003;, Kits &#10003; or Teams &#10003; on or off - (Version 0.6)~~
 * ~~ADD: Shop items in a config - (Version 0.7)~~
 * ~~ADD: Kits in a config (remove, add, deactivate) - (Version 0.8)~~
-* ADD: Chest items in a config - (Version 0.9)
-* ADD: Option to deactivate mysql (file database) - (Version 1.0)
+* ~~ADD: Option to deactivate mysql (Version 0.8.5)~~
+* ADD: File database for stats - (Version 0.9)
+* ADD: Chest items in a config - (Version 1.0)
 * ADD: Multiple lobby's per server - (Version 2.0)
 
 
