@@ -12,10 +12,11 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 3. Download Multiverse-Core
    * [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
 4. Put the .jar in your plugins folder
-6. Add `mv.bypass.gamemode.*: true` to your permissions.yml
-7. Start your server
-8. Import your worlds with `/mv import [worldname] NORMAL`
-9. Change the .yml files in the PotionGames folder like you want them
+5. Add `mv.bypass.gamemode.*: true` to your permissions.yml
+6. Start your server
+7. Import your worlds with `/mv import [worldname] NORMAL`
+8. Change the .yml files in the PotionGames folder like you want them
+9. Restart your server to reload the changed plugin files
 
 ## Usage
 
