@@ -27,7 +27,16 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 #### Chest-Types
 
-* End Portal Frame: Normal chest like in SurvivalGames
+* End Portal Frame: Normal chest like in SurvivalGames (With different item probabilities)
+  * food1 20%
+  * food2 10%
+  * armour1 15%
+  * armour2 15%
+  * armour3 7%
+  * armour4 5%
+  * armour5 3%
+  * weapons1 20%
+  * weapons2 5%
 * Target: A special chest with Flame-Bow and Arrows
 * Netherite Block: A special chest with Netherite Ingots
   * Grindstone: To use the Netherite Ingots to upgrade Diamond Items to Netherite Items (Build a Beacon under the Grindstone to make it shown on the whole map)
@@ -90,6 +99,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 1.0
+  * ADD: Option to change chest items and effects
 * 0.9
   * ADD: Option to change database type between MySQL and SQLite
 * 0.8.5
@@ -118,7 +129,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: Kits in a config (remove, add, deactivate) - (Version 0.8)~~
 * ~~ADD: Option to deactivate mysql (Version 0.8.5)~~
 * ~~ADD: File database for stats - (Version 0.9)~~
-* ADD: Chest items in a config - (Version 1.0)
+* ~~ADD: Chest items in a config - (Version 1.0)~~
 * ADD: Multiple lobby's per server - (Version 2.0)
 
 
