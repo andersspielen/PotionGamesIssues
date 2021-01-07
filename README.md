@@ -42,7 +42,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
   * weapons2 5%
 * Target: A special chest with Flame-Bow and Arrows
 * Netherite Block: A special chest with Netherite Ingots
-  * Grindstone: To use the Netherite Ingots to upgrade Diamond Items to Netherite Items (Build a Beacon under the Grindstone to make it shown on the whole map)
+  * Grindstone: Upgrade Diamond Items to Netherite Items (Build a Beacon under the Grindstone to make it shown on the whole map)
 * Composter: Shop with potions (Build a Beacon under the Composter to make it shown on the whole map)
 
 #### Create Join and Stats Signs
@@ -57,8 +57,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 1. Place 3 Player Heads on a block next to each other
 2. Place 3 Signs at the front of the block
 3. Now use the commands listed below to create a podium
-    * Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
-    * Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
+   1. Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
+   2. Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
 
 ### Commands and Permissions
 
@@ -67,13 +67,13 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg addarena [arenaname]` - Add an arena - Permission: `pg.setup`
 * `/pg addspawn [arenaname]` - Add spawn - Permission: `pg.setup`
 * `/pg delarena [arenaname]` - Remove arena - Permission: `pg.setup`
-* `/pg delspawn [arenaname]` - Remove last added spawn - Permission: `pg.setup`
+* `/pg delspawn [arenaname] [number]` - Remove spawn - Permission: `pg.setup`
 * `/pg build` - Activate build mode - Permission: `pg.build`
 * `/pg pause` - Pause timer/countdown - Permission: `pg.pause`
 * `/pg force [arenaname]` - Force arena - Permission: `pg.force`
 * `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
-* `/pg join` - Join the game - When `startOnJoin = false` - Permission: `pg.join` 
-* `/pg leave` - Leave the game - When `startOnJoin = false` - Permission: `pg.leave` 
+* `/pg join` - Join the game(`startOnJoin = false`) - Permission: `pg.join`
+* `/pg leave` - Leave the game(`startOnJoin = false`) - Permission: `pg.leave`
 * `/pg stats` - Show your stats - Permission: `pg.stats`
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
@@ -89,7 +89,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `activateTeams: false` - Teams allowed `false` or `true`
 * `activateKits: false` - Kits allowed `false` or `true`
 * `activateShop: false` - Shop allowed `false` or `true`
-* `startOnJoin: false` - Automatically joining the lobby when joining the server `false` or `true` (Example: BungeeCord)
+* `startOnJoin: false` - Join the lobby when joining the server `false` or `true` (Example: BungeeCord)
 * `language: en_US` - Change language to one of the defined ones in the `messages.yml` file
 * `activePotions: 19` - Change amount of used slots in the Potion-Shop (Maximum: `27`)
 * `activeKits: 6` - Change amount of used slots in the Kit-Chooser (Maximum: `26`)
