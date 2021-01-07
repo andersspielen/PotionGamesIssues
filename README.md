@@ -42,7 +42,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
   * weapons2 5%
 * Target: A special chest with Flame-Bow and Arrows
 * Netherite Block: A special chest with Netherite Ingots
-  * Grindstone: Upgrade Diamond Items to Netherite Items (Build a Beacon under the Grindstone to make it shown on the whole map)
+  * Smithing Table: Upgrade Diamond- to Netherite Items (Build a Beacon under the Smithing Table to make it shown on the
+    whole map)
 * Composter: Shop with potions (Build a Beacon under the Composter to make it shown on the whole map)
 
 #### Create Join and Stats Signs
