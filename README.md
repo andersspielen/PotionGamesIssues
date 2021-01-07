@@ -63,14 +63,14 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 ### Commands and Permissions
 
 * `/pg` or `/pg help` or `/pg commands` - Get list of commands + permissions - Permission: `none`
-* `/pg setlobby` - Set waiting lobby - Permission: `pg.setup`
+* `/pg setlobby` - Set lobby - Permission: `pg.setup`
 * `/pg addarena [arenaname]` - Add an arena - Permission: `pg.setup`
-* `/pg addspawn [arenaname]` - Add spawn - Permission: `pg.setup`
-* `/pg delarena [arenaname]` - Remove arena - Permission: `pg.setup`
-* `/pg delspawn [arenaname] [number]` - Remove spawn - Permission: `pg.setup`
+* `/pg addspawn [arenaname]` - Add a spawn - Permission: `pg.setup`
+* `/pg delarena [arenaname]` - Remove an arena - Permission: `pg.setup`
+* `/pg delspawn [arenaname] [number]` - Remove a spawn - Permission: `pg.setup`
 * `/pg build` - Activate build mode - Permission: `pg.build`
 * `/pg pause` - Pause timer/countdown - Permission: `pg.pause`
-* `/pg force [arenaname]` - Force arena - Permission: `pg.force`
+* `/pg force [arenaname]` - Force an arena - Permission: `pg.force`
 * `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
 * `/pg join` - Join the game(`startOnJoin = false`) - Permission: `pg.join`
 * `/pg leave` - Leave the game(`startOnJoin = false`) - Permission: `pg.leave`
