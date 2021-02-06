@@ -72,13 +72,6 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
     whole map)
 * Composter: Shop with potions (Build a Beacon under the Composter to make it shown on the whole map)
 
-#### Create Join and Stats Signs
-
-* Join Sign
-  * Place a Sign and type in the second line `PotionGames` and in the third line `Join`
-* Stats Sign
-  * Place a Sign and type in the second line `PotionGames` and in the third line `Stats`
-
 #### Create Stats-Wall
 
 1. Place 3 Player Heads on a block next to each other
