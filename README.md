@@ -132,7 +132,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 * `activateMySQL: false` - Change between SQLite `false` and MySQL `true` database
 * `mysql:` - Setup your mysql database
-* `arenaSystem: false` - Change between Single-Lobby `false` and Multi-Lobby `true`
+* `lobbySystem: false` - Change between Single-Lobby `false` and Multi-Lobby `true`
 * `countdown: 60` - Set the lobby countdown
 * `maxPlayers: 24` - Set the amount of maximum amount of players
 * `minPlayers: 12` - Set the amount of minimal amount of players to start the game
