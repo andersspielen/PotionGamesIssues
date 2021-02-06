@@ -72,8 +72,10 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
     whole map)
 * Composter: Shop with potions (Build a Beacon under the Composter to make it shown on the whole map)
 
-#### Create Stats Sign
+#### Create Join and Stats Signs
 
+* Join Sign
+  * Place a Sign and look at it, then use the command for your Lobby-System type
 * Stats Sign
   * Place a Sign and type in the second line `PotionGames` and in the third line `Stats`
 
@@ -91,6 +93,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 * `/pg` or `/pg help` or `/pg commands` - Get list of commands + permissions - Permission: `none`
 * `/pg setlobby [lobbynumber]` - Set lobby - Permission: `pg.setup`
+* `/pg dellobby [lobbynumber]` - Remove lobby - Permission: `pg.setup`
 * `/pg addarena [lobbynumber] [arenaname]` - Add an arena - Permission: `pg.setup`
 * `/pg addspawn [lobbynumber] [arenaname]` - Add a spawn - Permission: `pg.setup`
 * `/pg delarena [lobbynumber] [arenaname]` - Remove an arena - Permission: `pg.setup`
@@ -118,8 +121,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg pause` - Pause timer/countdown - Permission: `pg.pause`
 * `/pg force [arenaname]` - Force an arena - Permission: `pg.force`
 * `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
-* `/pg join` - Join the game(`startOnJoin = false`) - Permission: `pg.join`
-* `/pg leave` - Leave the game(`startOnJoin = false`) - Permission: `pg.leave`
+* `/pg join` - Join the game (`startOnJoin = false`) - Permission: `pg.join`
+* `/pg leave` - Leave the game (`startOnJoin = false`) - Permission: `pg.leave`
 * `/pg stats` - Show your stats - Permission: `pg.stats`
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
