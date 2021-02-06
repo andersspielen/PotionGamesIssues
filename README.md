@@ -6,8 +6,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Functions
 
-* Setup your own loot table for the normal chest type
-* Setup your own potion effects for looting the normal chests
+* Set up your own loot table for the normal chest type
+* Set up your own potion effects for looting the normal chests
 * Loot coins and glass bottles to use in the shop
 * Setup up to 27 potions for the shop
 * Setup up to 26 kits to give sale prices for certain potions from the shop
@@ -17,25 +17,36 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * Eat soups with one click to also heal some health
 * Use stats with SQLite or MySQL
 * Use the stats wall to show the best three players
-* Use startOnJoin option to use this plugin with Bungeecord
+* Use startOnJoin option to use this plugin with BungeeCord
 
 ## Installation
 
 1. Download the plugin
-   * [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+  * [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
 2. Put the .jar in your plugins folder
 3. Download Multiverse-Core
-   * [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
+  * [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
 4. Put the .jar in your plugins folder
 5. Add `mv.bypass.gamemode.*: true` to your permissions.yml
 6. Start your server
 7. Import your worlds with `/mv import [worldname] NORMAL`
-8. Change the .yml files in the PotionGames folder like you want them
-9. Restart your server to reload the changed plugin files
+8. Change `lobbySystem` to `false` or `true`
+9. Change the .yml files in the PotionGames folder like you want them
+10. Restart your server to reload the changed plugin files
 
 ## Usage
 
 ### Setup
+
+#### Multi-Lobby-System
+
+0. You need to be op or have the permission pg.setup
+1. Create lobby `/pg setlobby [lobbynumber]`
+2. Create arena `/pg addarena [lobbynumber] [arenaname]`
+3. Add arena spawns `/pg addspawn [lobbynumber] [arenaname]`
+4. Add chests to your arena
+
+#### Single-Lobby-System
 
 0. You need to be op or have the permission pg.setup
 1. Create lobby `/pg setlobby`
@@ -73,17 +84,38 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 1. Place 3 Player Heads on a block next to each other
 2. Place 3 Signs at the front of the block
 3. Now use the commands listed below to create a podium
-   1. Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
-   2. Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
+  1. Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
+  2. Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
 
 ### Commands and Permissions
+
+#### Multi-Lobby-System
+
+* `/pg` or `/pg help` or `/pg commands` - Get list of commands + permissions - Permission: `none`
+* `/pg setlobby [lobbynumber]` - Set lobby - Permission: `pg.setup`
+* `/pg addarena [lobbynumber] [arenaname]` - Add an arena - Permission: `pg.setup`
+* `/pg addspawn [lobbynumber] [arenaname]` - Add a spawn - Permission: `pg.setup`
+* `/pg delarena [lobbynumber] [arenaname]` - Remove an arena - Permission: `pg.setup`
+* `/pg delspawn [lobbynumber] [arenaname]` - Remove last spawn - Permission: `pg.setup`
+* `/pg build` - Activate build mode - Permission: `pg.build`
+* `/pg pause` - Pause timer/countdown - Permission: `pg.pause`
+* `/pg force [arenaname]` - Force an arena - Permission: `pg.force`
+* `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
+* `/pg join [lobbynumber]` - Join the game (`startOnJoin = false`) - Permission: `pg.join`
+* `/pg leave` - Leave the game (`startOnJoin = false`) - Permission: `pg.leave`
+* `/pg stats` - Show your stats - Permission: `pg.stats`
+* `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
+* `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
+* `/pg joinsign [lobbynumber]` - Set Join-Sign - Permission: `pg.setup`
+
+#### Single-Lobby-System
 
 * `/pg` or `/pg help` or `/pg commands` - Get list of commands + permissions - Permission: `none`
 * `/pg setlobby` - Set lobby - Permission: `pg.setup`
 * `/pg addarena [arenaname]` - Add an arena - Permission: `pg.setup`
 * `/pg addspawn [arenaname]` - Add a spawn - Permission: `pg.setup`
 * `/pg delarena [arenaname]` - Remove an arena - Permission: `pg.setup`
-* `/pg delspawn [arenaname] [number]` - Remove a spawn - Permission: `pg.setup`
+* `/pg delspawn [arenaname]` - Remove last spawn - Permission: `pg.setup`
 * `/pg build` - Activate build mode - Permission: `pg.build`
 * `/pg pause` - Pause timer/countdown - Permission: `pg.pause`
 * `/pg force [arenaname]` - Force an arena - Permission: `pg.force`
@@ -93,11 +125,13 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg stats` - Show your stats - Permission: `pg.stats`
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
+* `/pg joinsign` - Set Join-Sign - Permission: `pg.setup`
 
 ### Config
 
 * `activateMySQL: false` - Change between SQLite `false` and MySQL `true` database
 * `mysql:` - Setup your mysql database
+* `arenaSystem: false` - Change between Single-Lobby `false` and Multi-Lobby `true`
 * `countdown: 60` - Set the lobby countdown
 * `maxPlayers: 24` - Set the amount of maximum amount of players
 * `minPlayers: 12` - Set the amount of minimal amount of players to start the game
@@ -118,6 +152,12 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 2.2
+  * ADD: Own settings per lobby
+* 2.1
+  * ADD: Join-Sings with updating information
+* 2.0
+  * ADD: Multi-Arena-System
 * 1.0
   * ADD: Option to change chest items and effects
 * 0.9
@@ -149,7 +189,10 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: Option to deactivate mysql (Version 0.8.5)~~
 * ~~ADD: File database for stats - (Version 0.9)~~
 * ~~ADD: Chest items in a config - (Version 1.0)~~
-* ADD: Multiple lobby's per server - (Version 2.0)
+* ~~ADD: Multiple lobby's per server - (Version 2.0)~~
+* ~~ADD: Better Join-Signs - (Version 2.1)~~
+* ~~ADD: Own settings for every lobby - (Version 2.2)~~
+* ADD: Add GUI for set up - (Version 3.0)
 
 
 ## Issues
