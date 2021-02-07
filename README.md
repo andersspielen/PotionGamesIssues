@@ -137,7 +137,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `maxPlayers: 24` - Set the amount of maximum amount of players
 * `minPlayers: 12` - Set the amount of minimal amount of players to start the game
 * `teamSize: 2` - Set amount of players in one team
-* `roundTime: 30` - Set duration of the round in minutes!
+* `roundTime: 30` - Set duration of the round in minutes
 * `activateTeams: false` - Teams allowed `false` or `true`
 * `activateKits: false` - Kits allowed `false` or `true`
 * `activateShop: false` - Shop allowed `false` or `true`
