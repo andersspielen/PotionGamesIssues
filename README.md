@@ -38,6 +38,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ### Setup
 
+#### New: Use `/pg setup` to set up the plugin!
+
 #### Multi-Lobby-System
 
 0. You need to be op or have the permission pg.setup
@@ -108,6 +110,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
 * `/pg joinsign [lobbynumber]` - Set Join-Sign - Permission: `pg.setup`
+* `/pg setup` - Set up the plugin - Permission: `pg.setup`
 
 #### Single-Lobby-System
 
@@ -127,6 +130,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
 * `/pg joinsign` - Set Join-Sign - Permission: `pg.setup`
+* `/pg setup` - Set up the plugin - Permission: `pg.setup`
 
 ### Config
 
@@ -156,6 +160,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 3.0
+  * ADD: Inventory set up
 * 2.3
   * ADD: Round-Time
 * 2.2
@@ -198,7 +204,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: Multiple lobby's per server - (Version 2.0)~~
 * ~~ADD: Better Join-Signs - (Version 2.1)~~
 * ~~ADD: Own settings for every lobby - (Version 2.2)~~
-* ADD: Add GUI for set up - (Version 3.0)
+* ~~ADD: Round-Timer - (Version 2.3)~~
+* ~~ADD: Add GUI for set up - (Version 3.0)~~
 
 
 ## Issues
