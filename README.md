@@ -170,12 +170,14 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 3.1
+  * ADD: Own settings per a lobby (Now every setting)
 * 3.0
   * ADD: Inventory set up
 * 2.3
   * ADD: Round-Time
 * 2.2
-  * ADD: Own settings per lobby
+  * ADD: Own settings per a lobby
 * 2.1
   * ADD: Join-Sings with updating information
 * 2.0
@@ -216,6 +218,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: Own settings for every lobby - (Version 2.2)~~
 * ~~ADD: Round-Timer - (Version 2.3)~~
 * ~~ADD: Add GUI for set up - (Version 3.0)~~
+* ~~ADD: All settings to Multi-Lobby-System - (Version 3.1)~~
 
 
 ## Issues
