@@ -4,7 +4,7 @@
 
 PotionGames is a minigames plugin that works like SurvivalGames but with potions and effects!
 
-## New in Version 4.0: Add own blocks with their own loot table:
+## New in Version 4.0: Change and add blocks with a custom loot table!
 More details in the `chestdata.yml` file!
 
 ## Functions
@@ -173,6 +173,8 @@ More details in the `chestdata.yml` file!
 
 ## Release History
 
+* 4.1
+  * ADD: Option to change all chest blocks
 * 4.0
   * ADD: Option to add own blocks with their own loot table
 * 3.1
@@ -225,7 +227,7 @@ More details in the `chestdata.yml` file!
 * ~~ADD: Add GUI for set up - (Version 3.0)~~
 * ~~ADD: All settings to Multi-Lobby-System - (Version 3.1)~~
 * ~~ADD: Option to add own blocks with their own loot table - (Version 4.0)~~
-
+* ~~ADD: Option to change all chest blocks - (Version 4.1)~~
 
 ## Issues
 
