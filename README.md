@@ -171,6 +171,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 4.2
+  * ADD: Bungee Hub-Server setting
 * 4.1
   * ADD: Option to change all chest blocks
 * 4.0
@@ -226,6 +228,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: All settings to Multi-Lobby-System - (Version 3.1)~~
 * ~~ADD: Option to add own blocks with their own loot table - (Version 4.0)~~
 * ~~ADD: Option to change all chest blocks - (Version 4.1)~~
+* ~~ADD: Bungee Hub-Server setting - (Version 4.2)~~
 
 ## Issues
 
