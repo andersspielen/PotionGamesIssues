@@ -22,10 +22,14 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 ## Installation
 
 1. Download the plugin
-  * [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+
+* [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+
 2. Put the .jar in your plugins folder
 3. Download Multiverse-Core
-  * [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
+
+* [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
+
 4. Put the .jar in your plugins folder
 5. Add `mv.bypass.gamemode.*: true` to your permissions.yml
 6. Start your server
@@ -70,8 +74,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
   * weapons2 5%
 * Target: A special chest with Flame-Bow and Arrows
 * Netherite Block: A special chest with Netherite Ingots
-  * Smithing Table: Upgrade Diamond- to Netherite Items (Build a Beacon next to the Smithing Table to make it shown on the
-    whole map)
+  * Smithing Table: Upgrade Diamond- to Netherite Items (Build a Beacon next to the Smithing Table to make it shown on
+    the whole map)
 * Composter: Shop with potions (Build a Beacon under the Composter to make it shown on the whole map)
 
 #### Create Join and Stats Signs
@@ -86,8 +90,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 1. Place 3 Player Heads on a block next to each other
 2. Place 3 Signs at the front of the block
 3. Now use the commands listed below to create a podium
-  1. Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
-  2. Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
+1. Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
+2. Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
 
 ### Commands and Permissions
 
