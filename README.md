@@ -9,15 +9,16 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * Set up your own loot table for the normal chest type
 * Set up your own potion effects for looting the normal chests
 * Loot coins and glass bottles to use in the shop
-* Setup up to 27 potions for the shop
-* Setup up to 26 kits to give sale prices for certain potions from the shop
-* Setup up to 26 different arenas to vote for every round
+* Setup 27 potions for the shop
+* Setup 26 kits to give sale prices for certain potions from the shop
+* Setup 27 lobbies with 26 arenas to vote for every round
 * Setup teams with your own team size
 * Use milk buckets to clear all of your potion effects
 * Eat soups with one click to also heal some health
 * Use stats with SQLite or MySQL
 * Use the stats wall to show the best three players
 * Use startOnJoin option to use this plugin with BungeeCord
+* Use GUI or sign to join a lobby
 
 ## Installation
 
@@ -109,6 +110,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg force [arenaname]` - Force an arena - Permission: `pg.force`
 * `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
 * `/pg join [lobbynumber]` - Join the game (`startOnJoin = false`) - Permission: `pg.join`
+* `/pg list` - Open GUI with all lobbies (`startOnJoin = false`) - Permission: `pg.join`
 * `/pg leave` - Leave the game (`startOnJoin = false`) - Permission: `pg.leave`
 * `/pg stats` - Show your stats - Permission: `pg.stats`
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
@@ -175,6 +177,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 4.4
+  * ADD: Join lobby via gui
 * 4.3
   * ADD: Support for 1.17
 * 4.2
@@ -236,6 +240,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: Option to change all chest blocks - (Version 4.1)~~
 * ~~ADD: Bungee Hub-Server setting - (Version 4.2)~~
 * ~~ADD: Support for 1.17 - (Version 4.3)~~
+* ~~ADD: Join lobby via gui - (Version 4.4)~~
 
 ## Issues
 
