@@ -113,6 +113,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg list` - Open GUI with all lobbies (`startOnJoin = false`) - Permission: `pg.join`
 * `/pg leave` - Leave the game (`startOnJoin = false`) - Permission: `pg.leave`
 * `/pg stats` - Show your stats - Permission: `pg.stats`
+* `/pg version` - Shows your and latest version of plugin - Permission: `pg.update`
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
 * `/pg joinsign [lobbynumber]` - Set Join-Sign - Permission: `pg.setup`
@@ -138,6 +139,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg join` - Join the game (`startOnJoin = false`) - Permission: `pg.join`
 * `/pg leave` - Leave the game (`startOnJoin = false`) - Permission: `pg.leave`
 * `/pg stats` - Show your stats - Permission: `pg.stats`
+* `/pg version` - Shows your and latest version of plugin - Permission: `pg.update`
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
 * `/pg joinsign` - Set Join-Sign - Permission: `pg.setup`
@@ -177,6 +179,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 4.5
+  * ADD: /pg version command
 * 4.4
   * ADD: Join lobby via gui
 * 4.3
@@ -241,6 +245,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: Bungee Hub-Server setting - (Version 4.2)~~
 * ~~ADD: Support for 1.17 - (Version 4.3)~~
 * ~~ADD: Join lobby via gui - (Version 4.4)~~
+* ~~ADD: /pg version command - (Version 4.5)~~
 
 ## Issues
 
