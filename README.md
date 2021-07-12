@@ -174,6 +174,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `activeKits: 6` - Change amount of used slots in the Kit-Chooser (Maximum: `26`)
   * `Rich Kid` is hard coded and can only be deactivated
 * `compassOnSpawn: false` - Add Player-Finder to inventory on round start `false` or `true`
+* `allowOutsideChat: false` - Allows chatting with all players on the server `false` or `true`
 
 ### Messages
 
@@ -185,7 +186,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 ## Release History
 
 * 5.0 - TODO
-  * ADD: /pg settings command
+  * ...
 * 4.7
   * ADD: Primed TNT to loot table
 * 4.6
@@ -259,7 +260,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: /pg version command - (Version 4.5)~~
 * ~~ADD: /pg reload command - (Version 4.6)~~
 * ~~ADD: Primed TNT to loot table - (Version 4.7)~~
-* ADD: /pg settings command - (Version 5.0)
+* ADD: ... - (Version 5.0)
 
 ## Issues
 
