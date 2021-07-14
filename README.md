@@ -187,7 +187,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 ## Release History
 
 * 5.0 - TODO
-  * ...
+  * ADD: ...
 * 4.7
   * ADD: Primed TNT to loot table
 * 4.6
