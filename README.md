@@ -263,6 +263,6 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * ~~ADD: Primed TNT to loot table - (Version 4.7)~~
 * ADD: ... - (Version 5.0)
 
-## Issues
+## Issues / Ideas
 
-[Report bugs here!](https://github.com/andersspielen/PotionGamesIssues/issues)
+[Report bugs / request features here!](https://github.com/andersspielen/PotionGamesIssues/issues)
