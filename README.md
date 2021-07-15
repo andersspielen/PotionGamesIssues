@@ -111,7 +111,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
 * `/pg join [lobbynumber]` - Join the game (`startOnJoin = false`) - Permission: `pg.join`
 * `/pg list` - Open GUI with all lobbies (`startOnJoin = false`) - Permission: `pg.join`
-* `/pg leave` - Leave the game (`startOnJoin = false`) - Permission: `pg.leave`
+* `/pg leave` - Leave the game (`startOnJoin = false`)
 * `/pg stats` - Show your stats - Permission: `pg.stats`
 * `/pg version` - Show your and latest version of plugin - Permission: `pg.update`
 * `/pg reload` - Reload all config files - Permission: `pg.setup`
@@ -139,7 +139,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg force [arenaname]` - Force an arena - Permission: `pg.force`
 * `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
 * `/pg join` - Join the game (`startOnJoin = false`) - Permission: `pg.join`
-* `/pg leave` - Leave the game (`startOnJoin = false`) - Permission: `pg.leave`
+* `/pg leave` - Leave the game (`startOnJoin = false`)
 * `/pg stats` - Show your stats - Permission: `pg.stats`
 * `/pg version` - Show your and latest version of plugin - Permission: `pg.update`
 * `/pg reload` - Reload all config files - Permission: `pg.setup`
