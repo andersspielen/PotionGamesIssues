@@ -119,7 +119,6 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
 * `/pg joinsign [lobbynumber]` - Set Join-Sign - Permission: `pg.setup`
 * `/pg setup` - Set up the plugin - Permission: `pg.setup`
-* `/pg settings` - Change all settings ingame - Permission: `pg.setup` - TODO
 
 
 * Colored name in player and spectator chat - Permission: `pg.admin`
@@ -147,7 +146,6 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg signp1(2;3)` - Add Player Sign to Stats-Wall - Permission: `pg.setup`
 * `/pg joinsign` - Set Join-Sign - Permission: `pg.setup`
 * `/pg setup` - Set up the plugin - Permission: `pg.setup`
-* `/pg settings` - Change all settings ingame - Permission: `pg.setup` - TODO
 
 
 * Colored name in player and spectator chat - Permission: `pg.admin`
@@ -186,8 +184,6 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
-* 5.0 - TODO
-  * ADD: ...
 * 4.7
   * ADD: Primed TNT to loot table
 * 4.6
@@ -241,27 +237,13 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## TODO
 
-* ~~ADD: Option to turn Shop &#10003;, Kits &#10003; or Teams &#10003; on or off - (Version 0.6)~~
-* ~~ADD: Shop items in a config - (Version 0.7)~~
-* ~~ADD: Kits in a config (remove, add, deactivate) - (Version 0.8)~~
-* ~~ADD: Option to deactivate mysql (Version 0.8.5)~~
-* ~~ADD: File database for stats - (Version 0.9)~~
-* ~~ADD: Chest items in a config - (Version 1.0)~~
-* ~~ADD: Multiple lobby's per server - (Version 2.0)~~
-* ~~ADD: Better Join-Signs - (Version 2.1)~~
-* ~~ADD: Own settings for every lobby - (Version 2.2)~~
-* ~~ADD: Round-Timer - (Version 2.3)~~
-* ~~ADD: Add GUI for set up - (Version 3.0)~~
-* ~~ADD: All settings to Multi-Lobby-System - (Version 3.1)~~
-* ~~ADD: Option to add own blocks with their own loot table - (Version 4.0)~~
-* ~~ADD: Option to change all chest blocks - (Version 4.1)~~
-* ~~ADD: Bungee Hub-Server setting - (Version 4.2)~~
-* ~~ADD: Support for 1.17 - (Version 4.3)~~
-* ~~ADD: Join lobby via gui - (Version 4.4)~~
-* ~~ADD: /pg version command - (Version 4.5)~~
-* ~~ADD: /pg reload command - (Version 4.6)~~
-* ~~ADD: Primed TNT to loot table - (Version 4.7)~~
-* ADD: ... - (Version 5.0)
+* Version 5.0 - (Release Q4 2021):
+ * Settings command and gui
+ * Airdrop
+ * Scoreboard wich can be enabled and disabled (by server or player)
+ * Deathmatch arena when only two players left
+ * Team-Mode
+ * Auto choose arena when only one is available
 
 ## Issues / Ideas
 
