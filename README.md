@@ -173,6 +173,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `compassOnSpawn: false` - Add Player-Finder to inventory on round start `false` or `true`
 * `allowOutsideChat: false` - Allows chatting with all players on the server `false` or `true`
 * `changeGamerules: true` - Decide if the plugin changes gamerules `true` or `false`
+* `activateScoreboard: true` - Activate scoreboard `true` or `false`
 
 ### Messages
 
