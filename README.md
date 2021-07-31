@@ -183,6 +183,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 4.9
+  * ADD: Scoreboard
 * 4.8
   * ADD: One arena lobbies
 * 4.7
@@ -239,11 +241,10 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 ## TODO
 
 * Version 5.0 - (Release Q4 2021):
-  * Settings command and gui
-  * Airdrop
-  * Scoreboard which can be enabled and disabled (by server or player)
+  * Airdrop near to player
   * Deathmatch arena when only two players left
   * Team-Mode
+  * ~~Scoreboard which can be enabled and disabled~~ - Version 4.9
   * ~~Auto choose arena when only one is available~~ - Version 4.8
 
 ## Issues / Ideas
