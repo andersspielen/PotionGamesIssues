@@ -19,6 +19,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * Use the stats wall to show the best three players
 * Use startOnJoin option to use this plugin with BungeeCord
 * Use GUI or sign to join a lobby
+* Support for PlaceholderAPI
 
 ## Installation
 
@@ -112,7 +113,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg join [lobbynumber]` - Join the game (`startOnJoin = false`) - Permission: `pg.join`
 * `/pg list` - Open GUI with all lobbies (`startOnJoin = false`) - Permission: `pg.join`
 * `/pg leave` - Leave the game (`startOnJoin = false`)
-* `/pg stats` - Show your stats - Permission: `pg.stats`
+* `/pg stats [player]` - Show player stats - Permission: `pg.stats`
 * `/pg version` - Show your and latest version of plugin - Permission: `pg.update`
 * `/pg reload` - Reload all config files - Permission: `pg.setup`
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
@@ -140,7 +141,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg start` - Set lobby countdown to 10 - Permission: `pg.start`
 * `/pg join` - Join the game (`startOnJoin = false`) - Permission: `pg.join`
 * `/pg leave` - Leave the game (`startOnJoin = false`)
-* `/pg stats` - Show your stats - Permission: `pg.stats`
+* `/pg stats [player]` - Show player stats - Permission: `pg.stats`
 * `/pg version` - Show your and latest version of plugin - Permission: `pg.update`
 * `/pg reload` - Reload all config files - Permission: `pg.setup`
 * `/pg headp1(2;3)` - Add Player Head to Stats-Wall - Permission: `pg.setup`
