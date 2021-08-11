@@ -186,7 +186,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * To change a message just change the text in the `messages.yml` file
 * To add a language copy the existing lines and paste them below it and change the `en_US` to your language.
 * Also change the `en_US` in the `config.yml` to your language.
-* [Download latest German translation here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+* [Download latest German and Chinese translation here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
 
 ## Release History
 
