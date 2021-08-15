@@ -19,6 +19,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * Use the stats wall to show the best three players
 * Use startOnJoin option to use this plugin with BungeeCord
 * Use GUI or sign to join a lobby
+* Deathmatch
 * Support for PlaceholderAPI
 
 ## Installation
@@ -53,6 +54,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 2. Create arena `/pg addarena [lobbynumber] [arenaname]`
 3. Add arena spawns `/pg addspawn [lobbynumber] [arenaname]`
 4. Add chests to your arena
+5. Add deathmatch spawns `/pg adddeathmatch [lobbynumber] [arenaname]` (activateDeathmatch = true)
 
 #### Single-Lobby-System
 
@@ -61,6 +63,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 2. Create arena `/pg addarena [arenaname]`
 3. Add arena spawns `/pg addspawn [arenaname]`
 4. Add chests to your arena
+5. Add deathmatch spawns `/pg adddeathmatch [arenaname]` (activateDeathmatch = true)
 
 #### Chest-Types
 
@@ -104,8 +107,10 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg dellobby [lobbynumber]` - Remove lobby - Permission: `pg.setup`
 * `/pg addarena [lobbynumber] [arenaname]` - Add an arena - Permission: `pg.setup`
 * `/pg addspawn [lobbynumber] [arenaname]` - Add a spawn - Permission: `pg.setup`
+* `/pg adddeathmatch [lobbynumber] [arenaname]` - Add a deathmatch spawn - Permission: `pg.setup`
 * `/pg delarena [lobbynumber] [arenaname]` - Remove an arena - Permission: `pg.setup`
 * `/pg delspawn [lobbynumber] [arenaname]` - Remove last spawn - Permission: `pg.setup`
+* `/pg deldeathmatch [lobbynumber] [arenaname]` - Remove last deathmatch spawn - Permission: `pg.setup`
 * `/pg build` - Activate build mode - Permission: `pg.build`
 * `/pg pause` - Pause timer/countdown - Permission: `pg.pause`
 * `/pg force [arenaname]` - Force an arena - Permission: `pg.force`
@@ -133,8 +138,10 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `/pg setlobby` - Set lobby - Permission: `pg.setup`
 * `/pg addarena [arenaname]` - Add an arena - Permission: `pg.setup`
 * `/pg addspawn [arenaname]` - Add a spawn - Permission: `pg.setup`
+* `/pg adddeathmatch [arenaname]` - Add a deathmatch spawn - Permission: `pg.setup`
 * `/pg delarena [arenaname]` - Remove an arena - Permission: `pg.setup`
 * `/pg delspawn [arenaname]` - Remove last spawn - Permission: `pg.setup`
+* `/pg deldeathmatch [arenaname]` - Remove last deathmatch spawn - Permission: `pg.setup`
 * `/pg build` - Activate build mode - Permission: `pg.build`
 * `/pg pause` - Pause timer/countdown - Permission: `pg.pause`
 * `/pg force [arenaname]` - Force an arena - Permission: `pg.force`
@@ -180,6 +187,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `activateScoreboard: true` - Activate scoreboard `true` or `false`
 * `friendlyFire: false` - Allows friendly fire on teammates `true` or `false`
 * `joinStarted: true` - Allows joining a match that has already started `true` or `false`
+* `activateDeathmatch: true` - Activate deathmatch when only two players are left `true` or `false`
 
 ### Messages
 
@@ -190,6 +198,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 5.0
+  * ADD: Deathmatch
 * 4.9.5
   * ADD: Team-Mode
 * 4.9
@@ -249,12 +259,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## TODO
 
-* Version 5.0 - (Release Q4 2021):
-  * Airdrop near to player
-  * Deathmatch arena when only two players left
-  * ~~Team-Mode~~ - Version 4.9.5
-  * ~~Scoreboard which can be enabled and disabled~~ - Version 4.9
-  * ~~Auto choose arena when only one is available~~ - Version 4.8
+* Version 6.0 - (Release Q4 2021):
+  * Airdrops
 
 ## Issues / Ideas
 
