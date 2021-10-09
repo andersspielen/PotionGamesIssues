@@ -20,20 +20,16 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * Use startOnJoin option to use this plugin with BungeeCord
 * Use GUI or sign to join a lobby
 * Deathmatch
-* Support for PlaceholderAPI - Comming soon!
-* Support for Vault
+* Rewards (Vault needed)
+  * [Download the latest release here!](https://www.spigotmc.org/resources/vault.34315/)
 
 ## Installation
 
 1. Download the plugin
-
-* [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
-
+  * [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
 2. Put the .jar in your plugins folder
 3. Download Multiverse-Core
-
-* [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
-
+  * [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
 4. Put the .jar in your plugins folder
 5. Add `mv.bypass.gamemode.*: true` to your permissions.yml
 6. Start your server
@@ -191,17 +187,21 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `activateDeathmatch: true` - Activate deathmatch when only two players are left `true` or `false`
 * `enableRewards: true` - Enable rewards `true` or `false`
 * `winningReward: 100` - Set reward amount for winnig
-* `killReward: 10` - Set reward amount for kills
+* `killReward: 10` - Set reward amount for kills (Vault needed)
+  * [Download the latest release here!](https://www.spigotmc.org/resources/vault.34315/)
+* `broadcastStarting: false` - Broadcast when a lobby reached minimal amount of players `false` or `true`
 
 ### Messages
 
 * To change a message just change the text in the `messages.yml` file
 * To add a language copy the existing lines and paste them below it and change the `en_US` to your language.
 * Also change the `en_US` in the `config.yml` to your language.
-* [Download latest German and Chinese translation here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+  * [Download latest German and Chinese translation here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
 
 ## Release History
 
+* 5.2
+  * ADD: Sounds
 * 5.1
   * ADD: Rewards for kills and winning (Vault)
 * 5.0
