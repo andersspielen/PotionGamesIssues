@@ -9,7 +9,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * Set up your own loot table for the normal chest type
 * Set up your own potion effects for looting the normal chests
 * Set up your own chest types
-* Airdrops
+* Airdrops (Activate with redstone torch)
 * Loot coins and glass bottles to use in the shop
 * Setup 27 potions for the shop
 * Setup 26 kits to give sale prices for certain potions from the shop
