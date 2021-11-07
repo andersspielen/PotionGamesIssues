@@ -8,6 +8,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 * Set up your own loot table for the normal chest type
 * Set up your own potion effects for looting the normal chests
+* Set up your own chest types
+* Airdrops
 * Loot coins and glass bottles to use in the shop
 * Setup 27 potions for the shop
 * Setup 26 kits to give sale prices for certain potions from the shop
@@ -26,10 +28,14 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 ## Installation
 
 1. Download the plugin
-  * [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+
+* [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+
 2. Put the .jar in your plugins folder
 3. Download Multiverse-Core
-  * [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
+
+* [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
+
 4. Put the .jar in your plugins folder
 5. Add `mv.bypass.gamemode.*: true` to your permissions.yml
 6. Start your server
@@ -170,9 +176,10 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `minPlayers: 12` - Set the amount of minimal amount of players to start the game
 * `teamSize: 2` - Set amount of players in one team
 * `roundTime: 30` - Set duration of the round in minutes
-* `activateTeams: false` - Teams allowed `false` or `true`
-* `activateKits: false` - Kits allowed `false` or `true`
-* `activateShop: false` - Shop allowed `false` or `true`
+* `activateTeams: true` - Teams allowed `false` or `true`
+* `activateKits: true` - Kits allowed `false` or `true`
+* `activateShop: true` - Shop allowed `false` or `true`
+* `activateAirdrops: true` - Airdrops allowed `false` or `true`
 * `startOnJoin: false` - Join the lobby when joining the server `false` or `true` (Example: BungeeCord)
 * `language: en_US` - Change language to one of the defined ones in the `messages.yml` file
 * `activePotions: 19` - Change amount of used slots in the Potion-Shop (Maximum: `27`)
@@ -200,6 +207,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 ## Release History
 
+* 6.0
+  * ADD: Airdrops
 * 5.2
   * ADD: Sounds
 * 5.1
@@ -264,9 +273,6 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
   * ADD: SurvivalGames-System with chests giving PotionEffects
 
 ## TODO
-
-* Version 6.0 - (Release Q4 2021):
-  * Airdrops
 
 ## Issues / Ideas
 
