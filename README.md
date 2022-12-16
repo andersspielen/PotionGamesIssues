@@ -1,6 +1,6 @@
 # PotionGames
 
-> A Minecraft Minigames Plugin for Bukkit Servers!
+> A Minecraft minigames plugin for PaperMC servers!
 
 PotionGames is a minigames plugin that works like SurvivalGames but with potions and effects!
 
@@ -28,14 +28,10 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 ## Installation
 
 1. Download the plugin
-
-* [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
-
+  * [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
 2. Put the .jar in your plugins folder
 3. Download Multiverse-Core
-
-* [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
-
+  * [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
 4. Put the .jar in your plugins folder
 5. Add `mv.bypass.gamemode.*: true` to your permissions.yml
 6. Start your server
@@ -52,21 +48,21 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 
 #### Multi-Lobby-System
 
-0. You need to be op or have the permission pg.setup
-1. Create lobby `/pg setlobby [lobbynumber]`
-2. Create arena `/pg addarena [lobbynumber] [arenaname]`
-3. Add arena spawns `/pg addspawn [lobbynumber] [arenaname]`
-4. Add chests to your arena
-5. Add deathmatch spawns `/pg adddeathmatch [lobbynumber] [arenaname]` (activateDeathmatch = true)
+1. You need to be op or have the permission `pg.setup`
+2. Create lobby `/pg setlobby [lobbynumber]`
+3. Create arena `/pg addarena [lobbynumber] [arenaname]`
+4. Add arena spawns `/pg addspawn [lobbynumber] [arenaname]`
+5. Add chests to your arena
+6. Add deathmatch spawns `/pg adddeathmatch [lobbynumber] [arenaname]` (activateDeathmatch = true)
 
 #### Single-Lobby-System
 
-0. You need to be op or have the permission pg.setup
-1. Create lobby `/pg setlobby`
-2. Create arena `/pg addarena [arenaname]`
-3. Add arena spawns `/pg addspawn [arenaname]`
-4. Add chests to your arena
-5. Add deathmatch spawns `/pg adddeathmatch [arenaname]` (activateDeathmatch = true)
+1. You need to be op or have the permission `pg.setup`
+2. Create lobby `/pg setlobby`
+3. Create arena `/pg addarena [arenaname]`
+4. Add arena spawns `/pg addspawn [arenaname]`
+5. Add chests to your arena
+6. Add deathmatch spawns `/pg adddeathmatch [arenaname]` (activateDeathmatch = true)
 
 #### Chest-Types
 
@@ -98,8 +94,8 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 1. Place 3 Player Heads on a block next to each other
 2. Place 3 Signs at the front of the block
 3. Now use the commands listed below to create a podium
-1. Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
-2. Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
+4. Look at the head of the 1(2;3) player on the podium and do: `/pg headp1(2;3)`
+5. Look at the sign of the 1(2;3) player on the podium and do: `/pg signp1(2;3)`
 
 ### Commands and Permissions
 
@@ -193,7 +189,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `joinStarted: true` - Allows joining a match that has already started `true` or `false`
 * `activateDeathmatch: true` - Activate deathmatch when only two players are left `true` or `false`
 * `enableRewards: true` - Enable rewards `true` or `false`
-* `winningReward: 100` - Set reward amount for winnig
+* `winningReward: 100` - Set reward amount for winning
 * `killReward: 10` - Set reward amount for kills (Vault needed)
   * [Download the latest release here!](https://www.spigotmc.org/resources/vault.34315/)
 * `broadcastStarting: false` - Broadcast when a lobby reached minimal amount of players `false` or `true`
@@ -203,7 +199,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * To change a message just change the text in the `messages.yml` file
 * To add a language copy the existing lines and paste them below it and change the `en_US` to your language.
 * Also change the `en_US` in the `config.yml` to your language.
-  * [Download latest German and Chinese translation here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+  * [Download the latest German and Chinese translation here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
 
 ## Release History
 
