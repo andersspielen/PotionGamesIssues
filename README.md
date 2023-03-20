@@ -1,6 +1,6 @@
 # PotionGames
 
-> A Minecraft minigames plugin for PaperMC servers!
+> A Minecraft minigames plugin for Bukkit servers!
 
 PotionGames is a minigames plugin that works like SurvivalGames but with potions and effects!
 
