@@ -23,15 +23,19 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * Use GUI or sign to join a lobby
 * Deathmatch
 * Rewards (Vault needed)
-  * [Download the latest release here!](https://www.spigotmc.org/resources/vault.34315/)
+    * [Download the latest release here!](https://www.spigotmc.org/resources/vault.34315/)
 
 ## Installation
 
 1. Download the plugin
-  * [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+
+* [Download the latest release here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+
 2. Put the .jar in your plugins folder
 3. Download Multiverse-Core
-  * [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
+
+* [Download the latest release here!](https://www.spigotmc.org/resources/multiverse-core.390/)
+
 4. Put the .jar in your plugins folder
 5. Add `mv.bypass.gamemode.*: true` to your permissions.yml
 6. Start your server
@@ -67,27 +71,27 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 #### Chest-Types
 
 * End Portal Frame: Normal chest like in SurvivalGames (With different item probabilities)
-  * food1 20%
-  * food2 10%
-  * armour1 15%
-  * armour2 15%
-  * armour3 7%
-  * armour4 5%
-  * armour5 3%
-  * weapons1 20%
-  * weapons2 5%
+    * food1 20%
+    * food2 10%
+    * armour1 15%
+    * armour2 15%
+    * armour3 7%
+    * armour4 5%
+    * armour5 3%
+    * weapons1 20%
+    * weapons2 5%
 * Target: A special chest with Flame-Bow and Arrows
 * Netherite Block: A special chest with Netherite Ingots
-  * Smithing Table: Upgrade Diamond- to Netherite Items (Build a Beacon next to the Smithing Table to make it shown on
-    the whole map)
+    * Smithing Table: Upgrade Diamond- to Netherite Items (Build a Beacon next to the Smithing Table to make it shown on
+      the whole map)
 * Composter: Shop with potions (Build a Beacon under the Composter to make it shown on the whole map)
 
 #### Create Join and Stats Signs
 
 * Join Sign
-  * Place a Sign and look at it, then use the command for your Lobby-System type
+    * Place a Sign and look at it, then use the command for your Lobby-System type
 * Stats Sign
-  * Place a Sign and type in the second line `PotionGames` and in the third line `Stats`
+    * Place a Sign and type in the second line `PotionGames` and in the third line `Stats`
 
 #### Create Stats-Wall
 
@@ -180,7 +184,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `language: en_US` - Change language to one of the defined ones in the `messages.yml` file
 * `activePotions: 19` - Change amount of used slots in the Potion-Shop (Maximum: `27`)
 * `activeKits: 6` - Change amount of used slots in the Kit-Chooser (Maximum: `26`)
-  * `Rich Kid` is hard coded and can only be deactivated
+    * `Rich Kid` is hard coded and can only be deactivated
 * `compassOnSpawn: false` - Add Player-Finder to inventory on round start `false` or `true`
 * `allowOutsideChat: false` - Allows chatting with all players on the server `false` or `true`
 * `changeGamerules: true` - Decide if the plugin changes gamerules `true` or `false`
@@ -191,7 +195,7 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * `enableRewards: true` - Enable rewards `true` or `false`
 * `winningReward: 100` - Set reward amount for winning
 * `killReward: 10` - Set reward amount for kills (Vault needed)
-  * [Download the latest release here!](https://www.spigotmc.org/resources/vault.34315/)
+    * [Download the latest release here!](https://www.spigotmc.org/resources/vault.34315/)
 * `broadcastStarting: false` - Broadcast when a lobby reached minimal amount of players `false` or `true`
 
 ### Messages
@@ -199,74 +203,76 @@ PotionGames is a minigames plugin that works like SurvivalGames but with potions
 * To change a message just change the text in the `messages.yml` file
 * To add a language copy the existing lines and paste them below it and change the `en_US` to your language.
 * Also change the `en_US` in the `config.yml` to your language.
-  * [Download the latest German and Chinese translation here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
+    * [Download the latest German and Chinese translation here!](https://github.com/andersspielen/PotionGamesIssues/releases/latest)
 
 ## Release History
 
+* 7.0
+    * ADD: Support for Minecraft 1.13+
 * 6.0
-  * ADD: Airdrops
+    * ADD: Airdrops
 * 5.2
-  * ADD: Sounds
+    * ADD: Sounds
 * 5.1
-  * ADD: Rewards for kills and winning (Vault)
+    * ADD: Rewards for kills and winning (Vault)
 * 5.0
-  * ADD: Deathmatch
+    * ADD: Deathmatch
 * 4.9.5
-  * ADD: Team-Mode
+    * ADD: Team-Mode
 * 4.9
-  * ADD: Scoreboard
+    * ADD: Scoreboard
 * 4.8
-  * ADD: One arena lobbies
+    * ADD: One arena lobbies
 * 4.7
-  * ADD: Primed TNT to loot table
+    * ADD: Primed TNT to loot table
 * 4.6
-  * ADD: /pg reload command
+    * ADD: /pg reload command
 * 4.5
-  * ADD: /pg version command
+    * ADD: /pg version command
 * 4.4
-  * ADD: Join lobby via gui
+    * ADD: Join lobby via gui
 * 4.3
-  * ADD: Support for 1.17
+    * ADD: Support for 1.17
 * 4.2
-  * ADD: Bungee Hub-Server setting
+    * ADD: Bungee Hub-Server setting
 * 4.1
-  * ADD: Option to change all chest blocks
+    * ADD: Option to change all chest blocks
 * 4.0
-  * ADD: Option to add own blocks with their own loot table
+    * ADD: Option to add own blocks with their own loot table
 * 3.1
-  * ADD: Own settings per a lobby (Now every setting)
+    * ADD: Own settings per a lobby (Now every setting)
 * 3.0
-  * ADD: Inventory set up
+    * ADD: Inventory set up
 * 2.3
-  * ADD: Round-Time
+    * ADD: Round-Time
 * 2.2
-  * ADD: Own settings per a lobby
+    * ADD: Own settings per a lobby
 * 2.1
-  * ADD: Join-Sings with updating information
+    * ADD: Join-Sings with updating information
 * 2.0
-  * ADD: Multi-Arena-System
+    * ADD: Multi-Arena-System
 * 1.0
-  * ADD: Option to change chest items and effects
+    * ADD: Option to change chest items and effects
 * 0.9
-  * ADD: Option to change database type between MySQL and SQLite
+    * ADD: Option to change database type between MySQL and SQLite
 * 0.8.5
-  * ADD: Option to deactivate mysql/stats
+    * ADD: Option to deactivate mysql/stats
 * 0.8
-  * ADD: Option to change kits
+    * ADD: Option to change kits
 * 0.7
-  * ADD: Option to change shop items
+    * ADD: Option to change shop items
 * 0.6
-  * ADD: Option to turn Teams, Kits and Shop on or off
+    * ADD: Option to turn Teams, Kits and Shop on or off
 * 0.5
-  * ADD: Teams
+    * ADD: Teams
 * 0.4
-  * ADD: Kits
+    * ADD: Kits
 * 0.3
-  * ADD: Shop
+    * ADD: Shop
 * 0.2
-  * ADD: ArenaVote-System
+    * ADD: ArenaVote-System
 * 0.1
-  * ADD: SurvivalGames-System with chests giving PotionEffects
+    * ADD: SurvivalGames-System with chests giving PotionEffects
 
 ## TODO
 
